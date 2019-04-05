@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="pentago-swap:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/pentago_swap_jar</output-path>
+    <root id="archive" name="pentago-swap.jar">
+      <element id="module-output" name="pentago-swap" />
+    </root>
+  </artifact>
+</component>
