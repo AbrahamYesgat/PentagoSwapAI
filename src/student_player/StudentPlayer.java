@@ -33,40 +33,7 @@ public class StudentPlayer extends PentagoPlayer {
         Move myMove = boardState.getRandomMove();
         MyTools.simulateGame(boardState, (PentagoMove) myMove);
         MyTools.setPlayer(player_id);
-        System.out.println("2607 Pieces in row 0:" + MyTools.getMyPiecesInRow(boardState, 0));
-        System.out.println("2607 Pieces in row 1:" + MyTools.getMyPiecesInRow(boardState, 1));
-        System.out.println("2607 Pieces in row 2:" + MyTools.getMyPiecesInRow(boardState, 2));
-        System.out.println("2607 Pieces in row 3:" + MyTools.getMyPiecesInRow(boardState, 3));
-        System.out.println("2607 Pieces in row 4:" + MyTools.getMyPiecesInRow(boardState, 4));
-        System.out.println("2607 Pieces in row 5:" + MyTools.getMyPiecesInRow(boardState, 5));
 
-        System.out.println("");
-
-        System.out.println("2607 Pieces in col 0:" + MyTools.getMyPiecesInCol(boardState, 0));
-        System.out.println("2607 Pieces in col 1:" + MyTools.getMyPiecesInCol(boardState, 1));
-        System.out.println("2607 Pieces in col 2:" + MyTools.getMyPiecesInCol(boardState, 2));
-        System.out.println("2607 Pieces in col 3:" + MyTools.getMyPiecesInCol(boardState, 3));
-        System.out.println("2607 Pieces in col 4:" + MyTools.getMyPiecesInCol(boardState, 4));
-        System.out.println("2607 Pieces in col 5:" + MyTools.getMyPiecesInCol(boardState, 5));
-
-
-
-        System.out.println("OPPONENT: Rows");
-
-        System.out.println("Opponent Pieces in row 0:" + MyTools.getOppPiecesInRow(boardState, 0));
-        System.out.println("Opponent Pieces in row 1:" + MyTools.getOppPiecesInRow(boardState, 1));
-        System.out.println("Opponent Pieces in row 2:" + MyTools.getOppPiecesInRow(boardState, 2));
-        System.out.println("Opponent Pieces in row 3:" + MyTools.getOppPiecesInRow(boardState, 3));
-        System.out.println("Opponent Pieces in row 4:" + MyTools.getOppPiecesInRow(boardState, 4));
-        System.out.println("Opponent Pieces in row 5:" + MyTools.getOppPiecesInRow(boardState, 5));
-        System.out.println("OPPONENT: Cols");
-
-        System.out.println("Opponent Pieces in col 0:" + MyTools.getOppPiecesInCol(boardState, 0));
-        System.out.println("Opponent Pieces in col 1:" + MyTools.getOppPiecesInCol(boardState, 1));
-        System.out.println("Opponent Pieces in col 2:" + MyTools.getOppPiecesInCol(boardState, 2));
-        System.out.println("Opponent Pieces in col 3:" + MyTools.getOppPiecesInCol(boardState, 3));
-        System.out.println("Opponent Pieces in col 4:" + MyTools.getOppPiecesInCol(boardState, 4));
-        System.out.println("Opponent Pieces in col 5:" + MyTools.getOppPiecesInCol(boardState, 5));
 
         if(boardState.getTurnNumber()<3){
             myMove = MyTools.initialMove(boardState);
@@ -82,7 +49,7 @@ public class StudentPlayer extends PentagoPlayer {
         System.out.println("The heuristic is:" + heuristic);
         PentagoMove m = (PentagoMove) myMove;
         // Return your move to be processed by the server.
-
+        System.out.println("PLaying at: x="+ ((PentagoMove) myMove).getMoveCoord().getX()+ ", y=" +((PentagoMove) myMove).getMoveCoord().getY());
         return ((PentagoMove) myMove);
     }
 }
