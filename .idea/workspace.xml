@@ -7,12 +7,417 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9f69247-7339-4c4c-9576-69e5822df510" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/student_player/MyOldPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/student_player/MyOldPlayer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/student_player/MyTools.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/student_player/MyTools.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/student_player/StudentPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/student_player/StudentPlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00001.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00001.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00002.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00002.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00003.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00003.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00004.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00004.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00005.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00005.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00006.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00006.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00007.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00007.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00008.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00008.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00009.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00009.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00010.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00010.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00011.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00011.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00012.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00012.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00013.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00013.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00014.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00014.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00015.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00015.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00016.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00016.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00017.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00017.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00018.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00018.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00019.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00019.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00020.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00020.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00021.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00021.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00022.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00022.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00023.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00023.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00024.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00024.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00025.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00025.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00026.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00026.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00027.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00027.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00028.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00028.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00029.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00029.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00030.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00030.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00031.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00031.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00032.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00032.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00033.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00033.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00034.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00034.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00035.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00035.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00036.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00036.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00037.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00037.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00038.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00038.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00039.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00039.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00040.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00040.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00041.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00041.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00042.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00042.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00043.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00043.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00044.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00044.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00045.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00045.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00046.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00046.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00047.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00047.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00048.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00048.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00049.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00049.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00050.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00050.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00051.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00051.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00052.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/game00052.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00053.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00054.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00055.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00056.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00057.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00058.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00059.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00060.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00061.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00062.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00063.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00064.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00065.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00066.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00067.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00068.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00069.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00070.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00071.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00072.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00073.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00074.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00075.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00076.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00077.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00078.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00079.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00080.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00081.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00082.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00083.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00084.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00085.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00086.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00087.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00088.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00089.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00090.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00091.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00092.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00093.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00094.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00095.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00096.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00097.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00098.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00099.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00100.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00101.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00102.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00103.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00104.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00105.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00106.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00107.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00108.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00109.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00110.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00111.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00112.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00113.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00114.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00115.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00116.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00117.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00118.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00119.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00120.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00121.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00122.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00123.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00124.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00125.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00126.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00127.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00128.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00129.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00130.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00131.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00132.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00133.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00134.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00135.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00136.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00137.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00138.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00139.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00140.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00141.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00142.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00143.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00144.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00145.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00146.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00147.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00148.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00149.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00150.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00151.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00152.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00153.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00154.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00155.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00156.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00157.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00158.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00159.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00160.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00161.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00162.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00163.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00164.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00165.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00166.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00167.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00168.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00169.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00170.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00171.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00172.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00173.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00174.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00175.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00176.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00177.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00178.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00179.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00180.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00181.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00182.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00183.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00184.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00185.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00186.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00187.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00188.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00189.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00190.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00191.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00192.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00193.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00194.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00195.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00196.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00197.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00198.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00199.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00200.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00201.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00202.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00203.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00204.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00205.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00206.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00207.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00208.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00209.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00210.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00211.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00212.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00213.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00214.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00215.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00216.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00217.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00218.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00219.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00220.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00221.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00222.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00223.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00224.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00225.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00226.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00227.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00228.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00229.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00230.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00231.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00232.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00233.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00234.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00235.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00236.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00237.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00238.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00239.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00240.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00241.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00242.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00243.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00244.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00245.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00246.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00247.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00248.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00249.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00250.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00251.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00252.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00253.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00254.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00255.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00256.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00257.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00258.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00259.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00260.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00261.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00262.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00263.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00264.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00265.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00266.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00267.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00268.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00269.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00270.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00271.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00272.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00273.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00274.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00275.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00276.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00277.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00278.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00279.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00280.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00281.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00282.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00283.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00284.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00285.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00286.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00287.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00288.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00289.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00290.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00291.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00292.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00293.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00294.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00295.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00296.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00297.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00298.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00299.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00300.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00301.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00302.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00303.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00304.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00305.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00306.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00307.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00308.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00309.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00310.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00311.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00312.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00313.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00314.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00315.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00316.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00317.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00318.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00319.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00320.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00321.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00322.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00323.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00324.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00325.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00326.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00327.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00328.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00329.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00330.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00331.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00332.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00333.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00334.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00335.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00336.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00337.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00338.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00339.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00340.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00341.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00342.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00343.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00344.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00345.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00346.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00347.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00348.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00349.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00350.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00351.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00352.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00353.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00354.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00355.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00356.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00357.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00358.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00359.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00360.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00361.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00362.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00363.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00364.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00365.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00366.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00367.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00368.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00369.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00370.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00371.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00372.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00373.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00374.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00375.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00376.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00377.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00378.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00379.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00380.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00381.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00382.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00383.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00384.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00385.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00386.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00387.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00388.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00389.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00390.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00391.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00392.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00393.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00394.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00395.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00396.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00397.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00398.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00399.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00400.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00401.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00402.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00403.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00404.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/game00405.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/outcomes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/outcomes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/pentago_swap_jar/pentago-swap.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/pentago_swap_jar/pentago-swap.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/student_player/MyOldPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student_player/MyOldPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/student_player/MyTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student_player/MyTools.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/student_player/StudentPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/student_player/StudentPlayer.java" afterDir="false" />
     </list>
@@ -28,20 +433,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/student_player/StudentPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-319">
-              <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+            <state relative-caret-position="633">
+              <caret line="81" selection-start-line="81" selection-end-line="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/student_player/MyTools.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="201" column="42" selection-start-line="201" selection-start-column="42" selection-end-line="201" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/student_player/MyTools.java">
+        <entry file="file://$PROJECT_DIR$/src/pentago_swap/PentagoBoardState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="55" column="30" lean-forward="true" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
+            <state relative-caret-position="150">
+              <caret line="19" column="37" selection-start-line="19" selection-end-line="20" />
+              <folding>
+                <element signature="e#9883#9884#0" expanded="true" />
+                <element signature="e#9957#9958#0" expanded="true" />
+                <element signature="e#11244#11245#0" expanded="true" />
+                <element signature="e#11295#11296#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1200">
+              <caret line="106" column="13" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/student_player/MyOldPlayer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,47 +493,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pentago_swap/PentagoMove.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="1110">
               <caret line="77" column="85" selection-start-line="77" selection-start-column="85" selection-end-line="77" selection-end-column="85" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pentago_swap/PentagoPlayer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/student_player/MyOldTools.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4080">
-              <caret line="279" selection-start-line="279" selection-end-line="298" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/boardgame/BoardState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pentago_swap/PentagoBoardState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2685">
-              <caret line="194" selection-start-line="194" selection-end-line="194" />
             </state>
           </provider>
         </entry>
@@ -108,14 +510,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>entr</find>
-      <find>turnPlayer</find>
-      <find>DAAANGER</find>
-      <find>Simulation</find>
-      <find>D</find>
-      <find>DAAA</find>
-      <find>Mymove</find>
-      <find>gamewinn</find>
       <find>defe</find>
       <find>upda</find>
       <find>gameW</find>
@@ -129,7 +523,6 @@
       <find>getmy</find>
       <find>eval</find>
       <find>getHeuristic</find>
-      <find>get</find>
       <find>gethe</find>
       <find>getOppone</find>
       <find>getOpponentPiec</find>
@@ -138,6 +531,15 @@
       <find>process</find>
       <find>heuris</find>
       <find>simula</find>
+      <find>-5</find>
+      <find>System</find>
+      <find>heur</find>
+      <find>diag</find>
+      <find>heurist</find>
+      <find>get</find>
+      <find>ge</find>
+      <find>diagonal</find>
+      <find>Sys</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -150,14 +552,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/../Downloads/MyTools (1).java" />
-        <option value="$PROJECT_DIR$/src/pentago_swap/PentagoBoardState.java" />
         <option value="$PROJECT_DIR$/src/pentago_swap/MyOldTools.java" />
         <option value="$PROJECT_DIR$/src/pentago_swap/MyOld.java" />
         <option value="$PROJECT_DIR$/src/student_player/MyOldPLayer.java" />
         <option value="$PROJECT_DIR$/src/autoplay/Autoplay.java" />
         <option value="$PROJECT_DIR$/src/boardgame/ServerGUI.java" />
-        <option value="$PROJECT_DIR$/src/student_player/MyOldPlayer.java" />
         <option value="$PROJECT_DIR$/src/student_player/MyOldTools.java" />
+        <option value="$PROJECT_DIR$/src/student_player/MyOldPlayer.java" />
+        <option value="$PROJECT_DIR$/src/pentago_swap/PentagoBoardState.java" />
         <option value="$PROJECT_DIR$/src/student_player/StudentPlayer.java" />
         <option value="$PROJECT_DIR$/src/student_player/MyTools.java" />
       </list>
@@ -185,7 +587,29 @@
             <path>
               <item name="pentago-swap 2" type="b2602c69:ProjectViewProjectNode" />
               <item name="pentago-swap 2" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pentago-swap 2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pentago-swap 2" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pentago-swap 2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pentago-swap 2" type="462c0819:PsiDirectoryNode" />
               <item name="pentagoSwap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pentago-swap 2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pentago-swap 2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pentago-swap 2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pentago-swap 2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pentago_swap" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -196,7 +620,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554484956050" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554649469278" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -273,18 +697,20 @@
       <workItem from="1554384445215" duration="2418000" />
       <workItem from="1554416760870" duration="11917000" />
       <workItem from="1554475862373" duration="8025000" />
-      <workItem from="1554491554556" duration="2893000" />
+      <workItem from="1554491554556" duration="3024000" />
+      <workItem from="1554502840487" duration="7499000" />
+      <workItem from="1554654454893" duration="350000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62794000" />
+    <option name="totallyTimeSpent" value="70774000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49840257" visible="true" weight="0.15522175" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49840257" visible="true" weight="0.1595136" />
       <window_info id="Structure" order="1" sideWeight="0.50159746" side_tool="true" weight="0.2739628" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -406,16 +832,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/student_player/MyOldPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="34" column="53" lean-forward="true" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/autoplay/Autoplay.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -470,32 +886,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pentago_swap/PentagoBoardState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2685">
-          <caret line="194" selection-start-line="194" selection-end-line="194" />
+        <state relative-caret-position="150">
+          <caret line="19" column="37" selection-start-line="19" selection-end-line="20" />
+          <folding>
+            <element signature="e#9883#9884#0" expanded="true" />
+            <element signature="e#9957#9958#0" expanded="true" />
+            <element signature="e#11244#11245#0" expanded="true" />
+            <element signature="e#11295#11296#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pentago_swap/PentagoMove.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="77" column="85" selection-start-line="77" selection-start-column="85" selection-end-line="77" selection-end-column="85" />
+        <state relative-caret-position="1200">
+          <caret line="106" column="13" selection-start-line="106" selection-start-column="13" selection-end-line="106" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/student_player/MyTools.java">
+    <entry file="file://$PROJECT_DIR$/src/student_player/MyOldPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="55" column="30" lean-forward="true" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
+        <state relative-caret-position="630">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pentago_swap/PentagoMove.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="77" column="85" selection-start-line="77" selection-start-column="85" selection-end-line="77" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/student_player/StudentPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-319">
-          <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
+        <state relative-caret-position="633">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/student_player/MyTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="201" column="42" selection-start-line="201" selection-start-column="42" selection-end-line="201" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
