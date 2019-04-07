@@ -33,7 +33,6 @@ public class StudentPlayer extends PentagoPlayer {
         Move myMove = boardState.getRandomMove();
         MyTools.simulateGame(boardState, (PentagoMove) myMove);
         MyTools.setPlayer(player_id);
-<<<<<<< HEAD
 //        MyTools.setCoords(boardState);
 //        System.out.println("2607 Pieces in row 0:" + MyTools.getMyPiecesInRow(boardState, 0));
 //        System.out.println("2607 Pieces in row 1:" + MyTools.getMyPiecesInRow(boardState, 1));
@@ -69,9 +68,6 @@ public class StudentPlayer extends PentagoPlayer {
 //        System.out.println("Opponent Pieces in col 3:" + MyTools.getOppPiecesInCol(boardState, 3));
 //        System.out.println("Opponent Pieces in col 4:" + MyTools.getOppPiecesInCol(boardState, 4));
 //        System.out.println("Opponent Pieces in col 5:" + MyTools.getOppPiecesInCol(boardState, 5));
-=======
-
->>>>>>> parent of b47362f... BETA DONE
 
         if(boardState.getTurnNumber()<3){
             myMove = MyTools.initialMove(boardState);
@@ -84,7 +80,7 @@ public class StudentPlayer extends PentagoPlayer {
             return winningMove;
         }
         // Return your move to be processed by the server.
-        System.out.println("PLaying at: x="+ ((PentagoMove) myMove).getMoveCoord().getX()+ ", y=" +((PentagoMove) myMove).getMoveCoord().getY());
+
         return ((PentagoMove) myMove);
     }
 }
