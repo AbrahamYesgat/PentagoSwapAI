@@ -1,0 +1,17 @@
+# Server version 0.08 running on 10.142.59.190:8123
+# Game ID: 62
+# Board class: pentago_swap.PentagoBoard
+# Timeout: 2000
+# First Move Timeout: 30000
+# Date: Mon Apr 01 16:01:19 EDT 2019
+# Player 1: Player-0, '260740998', running on 10.142.59.190
+# Player 2: Player-1, 'Human', running on 10.142.59.190
+START Player-0 260740998
+START Player-1 Human
+1 1 TL TR 0
+4 5 BR BL 1
+1 1 TL TR 0
+0 2 TR TL 1
+4 1 TL TR 0
+2 5 TR TL 1
+0 1 BL TR 0

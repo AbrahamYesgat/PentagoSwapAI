@@ -12,20 +12,10 @@ import java.util.function.UnaryOperator;
 
 
 public class MyTools {
-    private PentagoBoardState.Piece[][] board;
-
-    public static ArrayList <PentagoCoord>diagA = new ArrayList<>();
-    public static ArrayList<PentagoCoord> diagB = new ArrayList<>();
-    public static ArrayList <PentagoCoord>diagC = new ArrayList<>();
-    public static ArrayList <PentagoCoord>diagD = new ArrayList<>();
-    public static ArrayList <PentagoCoord>diagE = new ArrayList<>();
-    public static ArrayList <PentagoCoord>diagF = new ArrayList<>();
-    public static final int BOARD_SIZE = 6;
+    public static ArrayList<Integer> quadrants;
+    public static PentagoBoardState pentagoBoardState ;
 
 
-
-    private static final UnaryOperator<PentagoCoord> getNextDiagRight = c -> new PentagoCoord(c.getX()+1, c.getY()+1);
-    private static final UnaryOperator<PentagoCoord> getNextDiagLeft = c -> new PentagoCoord(c.getX()+1, c.getY()-1);
     public HashMap<String, Integer> map;
     public static int player_id;
 
@@ -48,22 +38,6 @@ public class MyTools {
         return myMove ;
 
     }
-    public static void setCoords(PentagoBoardState boardState){
-        List<PentagoCoord> coordsA = Arrays.asList(new PentagoCoord(0,4), new PentagoCoord(1,3), new PentagoCoord(2,2), new PentagoCoord(3,1), new PentagoCoord(4,0));
-        List<PentagoCoord> coordsB = Arrays.asList(new PentagoCoord(0,5), new PentagoCoord(1,4), new PentagoCoord(2,3), new PentagoCoord(3,2), new PentagoCoord(4,1), new PentagoCoord(5,0));
-        List<PentagoCoord> coordsC = Arrays.asList(new PentagoCoord(1,5), new PentagoCoord(2,4), new PentagoCoord(3,3), new PentagoCoord(4,2), new PentagoCoord(5,1));
-        List<PentagoCoord> coordsD = Arrays.asList(new PentagoCoord(0,1), new PentagoCoord(1,2), new PentagoCoord(2,3), new PentagoCoord(3,4), new PentagoCoord(4,5));
-        List<PentagoCoord> coordsE = Arrays.asList(new PentagoCoord(0,0), new PentagoCoord(1,1), new PentagoCoord(2,2), new PentagoCoord(3,3), new PentagoCoord(4,4), new PentagoCoord(5,5));
-        List<PentagoCoord> coordsF = Arrays.asList(new PentagoCoord(1,0), new PentagoCoord(2,1), new PentagoCoord(3,2), new PentagoCoord(4,3), new PentagoCoord(5,4));
-        diagA.addAll(coordsA);
-        diagB.addAll(coordsB);
-        diagC.addAll(coordsC);
-        diagD.addAll(coordsD);
-        diagE.addAll(coordsE);
-        diagF.addAll(coordsF);
-
-
-    }
 
 
     public static PentagoMove myTurn (PentagoBoardState boardState){
@@ -74,7 +48,7 @@ public class MyTools {
 
 
         int simsTop = 10;
-        int simsMid = 5;
+        int simsMid = 20;
         int simslower = 5;
         double plusMinus = 0;
         double winRateTops=0;
@@ -96,22 +70,19 @@ public class MyTools {
                 myMove = m;
             }
         }
-        plusMinus = 0;
-        for(PentagoMove m : midMoves){
-            previous = plusMinus;
-            plusMinus = 0;
-            for(int i = 0 ; i < simsMid; i++){
-                plusMinus += simulateGame(boardState,m);
-            }
-            winRateMids = plusMinus /simsMid;
-            if(plusMinus > previous){
-                myMoveMid = m;
-            }
-        }
-     return myMove ;
-
-
-
+        return myMove;
+//        plusMinus = 0;
+//        for(PentagoMove m : midMoves){
+//            previous = plusMinus;
+//            plusMinus = 0;
+//            for(int i = 0 ; i < simsMid; i++){
+//                plusMinus += simulateGame(boardState,m);
+//            }
+//            winRateMids = plusMinus /simsMid;
+//            if(plusMinus > previous){
+//                myMoveMid = m;
+//            }
+//        }
 
 //        plusMinus = 0;
 //        for(PentagoMove m : lowerMoves){
@@ -133,6 +104,18 @@ public class MyTools {
 //        } else
 
 //        System.out.println("The win rate of this move is: " + winrate + "based on " + total + " total  games" );
+    }
+
+    public static PentagoMove heuristicFunction(PentagoBoardState boardState){
+        ArrayList<PentagoMove > allmoves = boardState.getAllLegalMoves();
+        TreeMap<Integer, Integer > map = new TreeMap<Integer, Integer>();
+        for(int i = 0 ; i <= allmoves.size()-1; i++){
+            PentagoMove m = allmoves.get(i);
+            map.put(getHeuristic(m, boardState), i);
+        }
+        int bestMoveindex =  map.get(map.floorKey(map.size()-1));
+        PentagoMove bestMove = allmoves.get(bestMoveindex);
+        return bestMove;
     }
 
     public static HashMap<PentagoMove, Integer> heuristicFunctionMap(PentagoBoardState boardState){
@@ -163,7 +146,7 @@ public class MyTools {
         int minValueInMap=(Collections.min(map.values()));  // This will return max value in the Hashmap
 
         for(Map.Entry<PentagoMove, Integer> entry : map.entrySet()){
-            if(entry.getValue()!= maxValueInMap && entry.getValue()!=minValueInMap){
+            if(entry.getValue()!=maxValueInMap && entry.getValue()!=minValueInMap){
                 midMoves.add(entry.getKey());
             }
 
@@ -204,7 +187,6 @@ public class MyTools {
                 (boardStateClone).processMove(move);
                 levels --;
         }
-
         return evaluateGame(boardStateClone);
     }
 
@@ -228,149 +210,34 @@ public class MyTools {
     }
     public static int getHeuristic(PentagoMove move, PentagoBoardState boardState){
         PentagoBoardState boardStateClone = (PentagoBoardState)boardState.clone();
-        int rowheuristic = getPiecesInRow(boardStateClone, move.getMoveCoord().getX());
-        int colheuristic = getPiecesInCol(boardStateClone, move.getMoveCoord().getY());
-        int diagheuristic = 0;
-        int max = Math.max(diagheuristic, Math.max(rowheuristic,colheuristic));
-
-        return Math.max(diagheuristic, Math.max(rowheuristic,colheuristic));
+        int rowheuristic = getMyPiecesInRow(boardStateClone, move.getMoveCoord().getX());
+        int colheuristic = getMyPiecesInCol(boardStateClone, move.getMoveCoord().getY());
+        int rowOppheuristic = getOppPiecesInRow(boardStateClone,move.getMoveCoord().getX());
+        int colOppheuristic = getOppPiecesInCol(boardStateClone,move.getMoveCoord().getY());
+        int a = Math.max(rowheuristic, colheuristic);
+        int b = Math.max(rowOppheuristic, colOppheuristic);
+        return Math.max(a,b);
     }
-
-
-    public static int getPiecesInRow(PentagoBoardState boardState, int row){
-        int bot;
-        if(boardState.firstPlayer() == player_id){
-            bot =0;
-        }else{
-            bot =1;
-        }
-        int opp = boardState.getOpponent(); //BLACK == 0 ; WHITE ==1
-        int numberOfMyPieces = 0;
-        int numberOfOppPieces = 0;
+    public static int getMyPiecesInRow(PentagoBoardState boardState, int row){
+        int me = boardState.getOpponent(); //BLACK == 0 ; WHITE ==1
+        int numberOfPieces = 0;
         for(int i = 0 ; i <= 5; i ++){
-            if(boardState.getPieceAt(row, i) == PentagoBoardState.Piece.WHITE && opp==1) numberOfMyPieces++;
-            else if(boardState.getPieceAt(row, i) == PentagoBoardState.Piece.BLACK && opp==0) numberOfMyPieces++;
-            else if(boardState.getPieceAt(row, i) == PentagoBoardState.Piece.WHITE && bot==1) numberOfOppPieces++;
-            else if(boardState.getPieceAt(row, i) == PentagoBoardState.Piece.BLACK && bot==0) numberOfOppPieces++;
+            if(boardState.getPieceAt(row, i) == PentagoBoardState.Piece.WHITE && me==1) numberOfPieces++;
+            else if(boardState.getPieceAt(row, i) == PentagoBoardState.Piece.BLACK && me==0) numberOfPieces++;
         }
-        return Math.max(numberOfMyPieces, numberOfOppPieces);
+        return numberOfPieces;
     }
-    public static int getPiecesInCol(PentagoBoardState boardState, int col){
-        int bot;
-        if(boardState.firstPlayer() == player_id){
-            bot =0;
-        }else{
-            bot =1;
-        }
-
-        int opp = boardState.getOpponent();
-        int numberOfMyPieces = 0;
-        int numberOfOppPieces = 0 ;
+    public static int getMyPiecesInCol(PentagoBoardState boardState, int col){
+        int me = boardState.getOpponent();
+        int numberOfPieces = 0;
         for(int i = 0 ; i <= 5; i ++){
-            if(boardState.getPieceAt(i, col) == PentagoBoardState.Piece.WHITE && opp==1) numberOfMyPieces++;
-            else if(boardState.getPieceAt(i, col) == PentagoBoardState.Piece.BLACK && opp==0) numberOfMyPieces++;
-            else if(boardState.getPieceAt(i, col) == PentagoBoardState.Piece.WHITE && bot==1) numberOfOppPieces++;
-            else if(boardState.getPieceAt(i, col) == PentagoBoardState.Piece.BLACK && bot==0) numberOfOppPieces++;
+            if(boardState.getPieceAt(i, col) == PentagoBoardState.Piece.WHITE && me==1) numberOfPieces++;
+            else if(boardState.getPieceAt(i, col) == PentagoBoardState.Piece.BLACK && me==0) numberOfPieces++;
         }
 
-        return Math.max(numberOfMyPieces, numberOfOppPieces);
+        return numberOfPieces;
 
     }
-
-    public static int getPiecesInDiag(PentagoBoardState boardState, PentagoCoord coord){
-        int bot;
-        if(boardState.firstPlayer() == player_id){
-            bot =0;
-        }else{
-            bot =1;
-        }
-        int opp = boardState.getOpponent(); //BLACK == 0 ; WHITE ==1
-        int myA = 0;
-        int OppA = 0;
-        ArrayList<Integer> maxs = new ArrayList<>();
-        int x = coord.getX();
-        int y = coord.getY();
-
-        for(PentagoCoord c : diagA){
-            if(diagA.contains(coord)){
-                if(boardState.getPieceAt(c.getX(), c.getY()) == PentagoBoardState.Piece.WHITE && opp==1) myA++;
-                else if(boardState.getPieceAt(c.getX(), c.getY()) == PentagoBoardState.Piece.BLACK && opp==0) myA++;
-                else if(boardState.getPieceAt(c.getX(), c.getY()) == PentagoBoardState.Piece.WHITE && bot==1) OppA++;
-                else if(boardState.getPieceAt(c.getX(), c.getY()) == PentagoBoardState.Piece.BLACK && bot==0) OppA++;
-            }
-
-        }
-        maxs.add(Math.max(myA, OppA));
-
-        int myB = 0;
-        int OppB = 0;
-        for(PentagoCoord c : diagB){
-            if(diagB.contains(coord)){
-                if(boardState.getPieceAt(c.getX(), c.getY()) == PentagoBoardState.Piece.WHITE && opp==1) myB++;
-                else if(boardState.getPieceAt(c.getX(), c.getY()) == PentagoBoardState.Piece.BLACK && opp==0) myB++;
-                else if(boardState.getPieceAt(c.getX(), c.getY()) == PentagoBoardState.Piece.WHITE && bot==1) OppB++;
-                else if(boardState.getPieceAt(c.getX(), c.getY()) == PentagoBoardState.Piece.BLACK && bot==0) OppB++;
-            }
-
-        }
-        maxs.add(Math.max(myB, OppB));
-
-        int myC = 0;
-        int OppC = 0;
-        for(PentagoCoord c : diagC){
-            if(diagC.contains(coord)){
-                if(boardState.getPieceAt(c.getX(), c.getY()) == PentagoBoardState.Piece.WHITE && opp==1) myC++;
-                else if(boardState.getPieceAt(c.getX(), c.getY()) == PentagoBoardState.Piece.BLACK && opp==0) myC++;
-                else if(boardState.getPieceAt(c.getX(), c.getY()) == PentagoBoardState.Piece.WHITE && bot==1) OppC++;
-                else if(boardState.getPieceAt(c.getX(), c.getY()) == PentagoBoardState.Piece.BLACK && bot==0) OppC++;
-            }
-
-        }
-        maxs.add(Math.max(myC, OppC));
-
-        int myD = 0;
-        int OppD = 0;
-        for(PentagoCoord c : diagD){
-            if(diagD.contains(coord)){
-                if(boardState.getPieceAt(c.getX(), c.getY()) == PentagoBoardState.Piece.WHITE && opp==1) myD++;
-                else if(boardState.getPieceAt(c.getX(), c.getY()) == PentagoBoardState.Piece.BLACK && opp==0) myD++;
-                else if(boardState.getPieceAt(c.getX(), c.getY()) == PentagoBoardState.Piece.WHITE && bot==1) OppD++;
-                else if(boardState.getPieceAt(c.getX(), c.getY()) == PentagoBoardState.Piece.BLACK && bot==0) OppD++;
-            }
-
-        }
-        maxs.add(Math.max(myD, OppD));
-
-        int myE = 0;
-        int OppE = 0;
-        for(PentagoCoord c : diagE){
-            if(diagE.contains(coord)){
-                if(boardState.getPieceAt(c.getX(), c.getY()) == PentagoBoardState.Piece.WHITE && opp==1) myE++;
-                else if(boardState.getPieceAt(c.getX(), c.getY()) == PentagoBoardState.Piece.BLACK && opp==0) myE++;
-                else if(boardState.getPieceAt(c.getX(), c.getY()) == PentagoBoardState.Piece.WHITE && bot==1) OppE++;
-                else if(boardState.getPieceAt(c.getX(), c.getY()) == PentagoBoardState.Piece.BLACK && bot==0) OppE++;
-            }
-
-        }
-        maxs.add(Math.max(myE, OppE));
-
-        int myF = 0;
-        int OppF = 0;
-        for(PentagoCoord c : diagF){
-            if(diagF.contains(coord)){
-                if(boardState.getPieceAt(c.getX(), c.getY()) == PentagoBoardState.Piece.WHITE && opp==1) myF++;
-                else if(boardState.getPieceAt(c.getX(), c.getY()) == PentagoBoardState.Piece.BLACK && opp==0) myF++;
-                else if(boardState.getPieceAt(c.getX(), c.getY()) == PentagoBoardState.Piece.WHITE && bot==1) OppF++;
-                else if(boardState.getPieceAt(c.getX(), c.getY()) == PentagoBoardState.Piece.BLACK && bot==0) OppF++;
-            }
-
-        }
-        maxs.add(Math.max(myF, OppF));
-
-        return Collections.max(maxs);
-
-    }
-
     public static int getOppPiecesInRow(PentagoBoardState boardState, int row){
         int bot;
         if(boardState.firstPlayer() == player_id){

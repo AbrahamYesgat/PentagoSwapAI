@@ -3,23 +3,23 @@
 # Board class: pentago_swap.PentagoBoard
 # Timeout: 2000
 # First Move Timeout: 30000
-# Date: Sat Apr 06 20:54:23 EDT 2019
-# Player 1: Player-0, '260740998', running on 192.168.0.100
-# Player 2: Player-1, 'OLD260740998', running on 192.168.0.100
-START Player-0 260740998
-START Player-1 OLD260740998
-1 1 TL TR 0
+# Date: Sun Mar 31 23:12:45 EDT 2019
+# Starting at move 12
+# Player 1: Player-0, 'Human', running on 192.168.0.100
+# Player 2: Player-1, '260740998', running on 192.168.0.100
+START Player-0 Human
+START Player-1 260740998
+3 0 BR TR 0
 1 1 TL TR 1
-4 1 TL TR 0
-4 4 TL TR 1
-3 4 TL TR 0
-5 0 TL TR 1
-5 1 BL BR 0
-5 1 BL BR 1
-0 4 TL BL 0
-5 0 BL BR 1
-0 1 TL TR 0
-2 1 BL BR 1
-3 1 TL TR 0
-GAMEOVER WINNER 0
-# Game ended: Sat Apr 06 20:54:26 EDT 2019
+2 0 BR TR 0
+1 1 TL TR 1
+4 0 TR TL 0
+1 4 TL TR 1
+5 4 TR BR 0
+0 4 BR TR 1
+2 4 TR TL 0
+2 4 BL TR 1
+2 3 TR BL 0
+0 4 TL BL 1
+GAMEOVER WINNER 1
+# Game ended: Sun Mar 31 23:12:45 EDT 2019

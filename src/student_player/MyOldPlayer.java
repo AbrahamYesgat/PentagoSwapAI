@@ -34,7 +34,7 @@ public class MyOldPlayer extends PentagoPlayer {
         if(boardState.getTurnNumber()<3){
             myMove = MyTools.initialMove(boardState);
         }else{
-            myMove  =  MyOldTools.heuristicFunction(boardState);
+            myMove  =  MyTools.heuristicFunction(boardState);
         }
         PentagoMove winningMove = MyTools.gameWinnable(boardState);
         if(winningMove != null){
